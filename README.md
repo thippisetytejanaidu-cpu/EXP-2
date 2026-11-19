@@ -67,7 +67,3 @@ Where:
 6. Load Characteristics: Terminal Voltage (V) vs Load Current (A).
 7. RESULT
 The load test and open circuit test characteristics of the D.C. shunt generator were studied and the characteristics were plotted successfully.
-6. NOTE
-- Readings are taken from the provided simulation screenshots.
-- The open-circuit screenshot labels the columns as Voltage (V) and Current (A).
-- The load-test table contains a repeated reading of 7 A and 195 V, as shown in the screenshot.
