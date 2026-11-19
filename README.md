@@ -1,63 +1,88 @@
-# EXP-2
-EXPT NO: 2 OCC AND LOAD CHARACTERISTICS OF D.C SHUNT GENERATOR
+Here is the clean GitHub README.md content. I have removed all `#` heading symbols and `$` mathematical symbols. You can copy and paste it directly.
 
-Aim:
-To conduct load test on separately excited generators and to obtain the characteristics
+Writing
 
-Apparatus Required:
+EXP-2: OCC AND LOAD CHARACTERISTICS OF D.C. SHUNT GENERATOR
 
-Sl .no	Apparatus	Range	Type	Quantity
-1	Volt meter	(0-300)V	MC	1
-2	Ammeter	(0-2.5)A	MC	1
-3	Ammeter	(0-5)A	MC	1
-4	Rheostat		Wire wouned	1
-5	Rheostat		Wire wouned	1
-6	Connecting wires	-	-	As required
+1. TABULATION FOR OPEN CIRCUIT TEST
+<img width="1561" height="860" alt="Screenshot 2026-11-18 152430" src="https://github.com/user-attachments/assets/0433ab65-dfd3-4125-af50-ec1e84c84265" />
 
-Fuse rating calculation for field and armature:
+Observation Table
 
-No load test
+| S.No. | Voltage (V) | Current (A) |
+| --- | --- | --- |
+| 1 | 115 | 0.16 |
+| 2 | 126 | 0.20 |
+| 3 | 133 | 0.23 |
+| 4 | 129 | 0.21 |
+| 5 | 133 | 0.23 |
+| 6 | 135 | 0.24 |
+| 7 | 142 | 0.30 |
+| 8 | 135 | 0.24 |
+| 9 | 133 | 0.23 |
 
-10 % of rated current (full load current)
+Graph Data – Open Circuit Characteristics
 
-Load test
+| Voltage (V) | Current (A) |
+| --- | --- |
+| 115 | 0.16 |
+| 126 | 0.20 |
+| 129 | 0.21 |
+| 133 | 0.23 |
+| 135 | 0.24 |
+| 142 | 0.30 |
 
-125 % of rated current (full load current)
+2. TABULATION FOR LOAD TEST
+<img width="933" height="807" alt="Screenshot 2026-10-14 152416" src="https://github.com/user-attachments/assets/7da9e335-8c61-4ec2-9693-0f1ac5a1f441" />
 
-Precautions
 
-1.   Motor side field rheostat should be kept at minimum resistance position.
-2.   Generator side field rheostat should be kept at maximum resistance position.
-3.   Starter should be in off position before switching on the supply.
-4.   The DPST switch must be kept open.Procedure for open circuit test
-Procedure
-1.   Connections are given as per the circuit diagram.
-2.   The motor is started with the help of THREE POINT starter.
-3.   Adjust the motor speed to rated speed by adjusting motor field rheostat when the generator is disconnected from the load by DPST switch 2.
-4.   By  varying  the  generator  field  rheostat  gradually,  the  open  circuit  voltage  [Eo]  and corresponding field current (If) are tabulated up to 125 % of rated voltage of generator.
-5.   The motor is switched off by using DPST switch 1 after bringing all the rheostats to initial position.
+Observation Table
 
-Procedure for Load test:
+| S.No. | Current (A) | Voltage (V) |
+| --- | --- | --- |
+| 1 | 7.0 | 195 |
+| 2 | 2.8 | 212 |
+| 3 | 3.2 | 208 |
+| 4 | 3.6 | 205 |
+| 5 | 5.5 | 200 |
+| 6 | 7.0 | 195 |
 
-1.   Connections are given as per the circuit diagram
-2.   The prime mover is started with the help of three point starter and it is made to run at rated speed when the generator is disconnected from the load by DPST switch 2.
-3.   By varying the generator field rheostat gradually, the rated voltage [Eg] is obtained.
-4.   The ammeter and voltmeter readings are observed at no load condition.
-5.   The ammeter and voltmeter readings are observed for different loads up to the rated current by closing the DPST switch 2.
-6.   After tabulating all the readings the load is brought to its initial position.
-7.   The motor is switched off by using DPST switch 1 after bringing all the rheostats to initial position.
+Graph Data – Load Characteristics
 
-Tabulation for Open Circuit Test
+| Load Current (A) | Terminal Voltage (V) |
+| --- | --- |
+| 2.8 | 212 |
+| 3.2 | 208 |
+| 3.6 | 205 |
+| 5.5 | 200 |
+| 7.0 | 195 |
 
-Tabulation for Load Test:
+3. CALCULATIONS
 
-Model graph:
-Calculation: 
+Open Circuit Test
 
-Open circuit characteristics
+Generated Voltage = E0
 
-  
-Load Characteristics:
- 
-Result:
-The load test on separately excited generators and to obtain the characteristics was verified.
+E0 = V
+
+Load Test
+
+Voltage Regulation (%) = \[(E0 - V) / V\] × 100
+
+Where:
+
+- E0 = No-load voltage
+- V = Loaded terminal voltage
+
+4. MODEL GRAPHS
+5. Open Circuit Characteristics: Voltage (V) vs Current (A).
+6. Load Characteristics: Terminal Voltage (V) vs Load Current (A).
+7. RESULT
+
+The load test and open circuit test characteristics of the D.C. shunt generator were studied and the characteristics were plotted successfully.
+
+6. NOTE
+
+- Readings are taken from the provided simulation screenshots.
+- The open-circuit screenshot labels the columns as Voltage (V) and Current (A).
+- The load-test table contains a repeated reading of 7 A and 195 V, as shown in the screenshot.
